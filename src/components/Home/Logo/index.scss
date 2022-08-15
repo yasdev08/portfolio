@@ -1,7 +1,7 @@
 .logo-container{
     z-index: 0;
     width: 400px;
-    height : 609px;
+    height : 400px;
 
     position: absolute;
     top: 0 ;
@@ -26,7 +26,7 @@
         margin:auto;
         width: 100%;
         opacity: 0;
-        transform: rotateZ(30deg);
+        transform: rotateZ(0deg);
         z-index: 1;
     }
 
