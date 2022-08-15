@@ -4,7 +4,7 @@ import './App.scss'
 import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
-
+import Projects from './components/Projects'
 function App() {
   return (
     <>
@@ -13,6 +13,7 @@ function App() {
           <Route index element={<Home />}> </Route>
           <Route path='About' element={<About />}> </Route>
           <Route path='Contact' element={<Contact />}></Route>
+          <Route path='Projects' element={<Projects />}></Route>
 
         </Route>
 
