@@ -3,8 +3,8 @@ import { Link, NavLink } from 'react-router-dom'
 import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faGamepad, faHome, faProjectDiagram, faUser } from '@fortawesome/free-solid-svg-icons'
-import { faFacebook, faGithub, faInstagram, faLinkedin, faRProject } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook, faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const Sidebar = () => (
     <div className='nav-bar'>
         <Link className='logo' to='/'>
@@ -23,10 +23,6 @@ const Sidebar = () => (
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"></FontAwesomeIcon>
-
-            </NavLink>
-            <NavLink exact="true" activeclassname="active" className="projects-link" to="/projects">
-                <FontAwesomeIcon icon={faGamepad} color="#4d4d4e"></FontAwesomeIcon>
 
             </NavLink>
 
