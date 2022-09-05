@@ -4,9 +4,9 @@
     height: 100%;
     position: absolute;
     top: 0;
-    z-index: 3;
+    z-index: 2;
     min-height: 500px;
-
+    display: block;
     .logo{
         display:block;
         padding: 8px 0;

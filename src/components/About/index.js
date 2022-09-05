@@ -30,9 +30,8 @@ const About = () => {
                             idx={15}
                         />
                     </h1>
-                    <p className='firstp'>I'm self driven front-end developer looking to provide the best service for you and your business/website, looking for an internship in a well established IT company with the opportunity to work with the latest technologies and building challenging and diverse projects !. </p>
-                    <p>I'm quiet confident in my skills, naturally curious, and always working on improving my talent.</p>
-                    <p className='lastp'>If i need a sentence to define me then it would 'enthusiastic , geek , social and well spoken person ! with a lot of potential.'</p>
+                    <p className='firstp'>I am a capable front-end developer. </p>
+                    <p className='lastp'>I am confident in my skills, naturally curious ,and always improving.</p>
 
                 </div>
 

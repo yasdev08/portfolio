@@ -51,9 +51,7 @@ const Contact = () => {
                             idx={15}
                         />
                     </h1>
-                    <p>
-                        I am a freelance web developer looking for opportunities, driven and ambitious on large projects. if you have questions or any request , please contact me using the form below.
-                    </p>
+
                     <div className='contact-form'>
                         <form ref={form} onSubmit={sendEmail}>
 
