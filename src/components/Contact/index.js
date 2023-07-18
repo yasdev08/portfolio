@@ -16,7 +16,7 @@ const Contact = () => {
                 'default_service',
                 'template_8l8ojsn',
                 form.current,
-                'BznnDkit0tmvMkfep'
+                'token'
             )
             .then(
                 () => {
