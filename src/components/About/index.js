@@ -30,7 +30,7 @@ const About = () => {
                             idx={15}
                         />
                     </h1>
-                    <p className='firstp'>I am a capable front-end developer. </p>
+                    <p className='firstp'>I am a capable Full Stack developer. </p>
                     <p className='lastp'>I am confident in my skills, naturally curious ,and always improving.</p>
 
                 </div>
