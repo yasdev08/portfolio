@@ -78,14 +78,14 @@ const Contact = () => {
                 <div className='info-map'>
                     Yasser Mecherrem,
                     <br />
-                    Algeria, Oran<br />
+                    Algeria, Mascara<br />
 
                     <span>Yasser.mechrem29@gmail.com</span>
                 </div>
                 <div className='map-wrap'>
-                    <MapContainer center={[35.6976541, -0.6337376]} zoom={13}>
+                    <MapContainer center={[35.399130, 0.135867]} zoom={13}>
                         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                        <Marker position={[35.6976541, -0.6337376]}>
+                        <Marker position={[35.399130, 0.135867]}>
                             <Popup>Yasser lives here, come over ;)</Popup>
                         </Marker>
                     </MapContainer>
