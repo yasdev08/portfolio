@@ -1,0 +1,113 @@
+.signage-page {
+  height: 90%;
+  overflow-y: auto;
+  padding: 0 10% 0 140px;
+  box-sizing: border-box;
+
+  .signage-intro {
+    max-width: 760px;
+
+    h1 {
+      color: #ffd700;
+      font-size: 53px;
+      margin: 0 0 16px;
+      font-family: 'Coolvetica';
+      font-weight: 400;
+      letter-spacing: 3px;
+    }
+
+    p {
+      color: #fff;
+      font-size: 14px;
+      font-family: sans-serif;
+      font-weight: 300;
+      line-height: 1.6;
+      margin: 0 0 8px;
+    }
+
+    .materials {
+      color: #ffd700;
+      opacity: 0.85;
+    }
+  }
+
+  .signage-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+    align-items: start;
+    margin: 32px 0 24px;
+  }
+
+  .signage-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 215, 0, 0.25);
+    border-radius: 6px;
+    padding: 12px;
+
+    h2 {
+      color: #ffd700;
+      font-size: 18px;
+      font-family: 'Coolvetica';
+      font-weight: 400;
+      margin: 12px 0 6px;
+    }
+
+    p {
+      color: #ddd;
+      font-size: 13px;
+      font-family: sans-serif;
+      line-height: 1.5;
+      margin: 0;
+    }
+  }
+
+  .signage-images {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 6px;
+
+    figure {
+      margin: 0;
+      position: relative;
+    }
+
+    img {
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      border-radius: 4px;
+      display: block;
+    }
+
+    figcaption {
+      position: absolute;
+      left: 4px;
+      bottom: 4px;
+      background: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      font-size: 10px;
+      font-family: sans-serif;
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+  }
+
+  .signage-note {
+    color: #aaa;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .signage-page {
+    padding: 0 16px 0 76px;
+
+    .signage-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}
