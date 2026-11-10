@@ -4,6 +4,7 @@ import './App.scss'
 import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
+import Signage from './components/Signage'
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
           <Route index element={<Home />}> </Route>
           <Route path='About' element={<About />}> </Route>
           <Route path='Contact' element={<Contact />}></Route>
+          <Route path='signage' element={<Signage />}></Route>
         </Route>
       </Routes>
     </>
