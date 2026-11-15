@@ -222,7 +222,7 @@ export const fr: Cv = {
     { name: "Autonomie", proof: "Gestion seul de projets web de bout en bout depuis 2023, de la négociation au déploiement." },
     { name: "Adaptabilité", proof: "Passage du développement web à la production en atelier (CNC, plotter, enseignes LED) en quelques mois." },
     { name: "Travail en équipe", proof: "Coordination quotidienne entre les clients, le gérant et l'atelier de fabrication." },
-    { name: "Persévérance", proof: "Reprise du parcours universitaire après un échec en Master 1 : M1 validé à Mascara avec 14,11/20 au second semestre." },
+    { name: "Persévérance", proof: "Reprise du parcours universitaire après un échec en Master 1 : M1 validé à Mascara avec 14,01/20 au second semestre." },
     { name: "Communication multilingue", proof: "Échanges professionnels en arabe, en français et en anglais." },
   ],
   education: [
@@ -231,7 +231,7 @@ export const fr: Cv = {
       title: "Master Ingénierie des Systèmes Intelligents",
       place: "Université Mustapha Stambouli, Mascara",
       points: [
-        "Master 1 validé (2025 – 2026), moyenne 12,33/20, dont 14,11/20 au second semestre",
+        "Master 1 validé (2025 – 2026), moyenne 12,33/20, dont 14,01/20 au second semestre",
         "Master 2 en cours : mémoire de fin d'études et stage au second semestre",
       ],
     },
@@ -368,7 +368,7 @@ export const en: Cv = {
     { name: "Autonomy", proof: "Running web projects alone end to end since 2023, from negotiation to deployment." },
     { name: "Adaptability", proof: "Moved from web development to workshop production (CNC, plotter, LED signs) within a few months." },
     { name: "Teamwork", proof: "Daily coordination between clients, the manager and the fabrication workshop." },
-    { name: "Perseverance", proof: "Got back on track after a failed Master's year: first year validated in Mascara, 14.11/20 in the second semester." },
+    { name: "Perseverance", proof: "Got back on track after a failed Master's year: first year validated in Mascara, 14.01/20 in the second semester." },
     { name: "Multilingual communication", proof: "Professional exchanges in Arabic, French and English." },
   ],
   education: [
@@ -377,7 +377,7 @@ export const en: Cv = {
       title: "Master's in Intelligent Systems Engineering",
       place: "Mustapha Stambouli University, Mascara",
       points: [
-        "First year validated (2025 – 2026), average 12.33/20, with 14.11/20 in the second semester",
+        "First year validated (2025 – 2026), average 12.33/20, with 14.01/20 in the second semester",
         "Second year in progress: thesis and internship in the second semester",
       ],
     },
