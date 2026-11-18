@@ -1007,3 +1007,71 @@ a {
     display: none;
   }
 }
+
+/* /signage page */
+.signage-hero {
+  padding-top: 56px;
+}
+
+.signage-materials {
+  margin-top: 14px;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  color: var(--accent-soft);
+}
+
+.sg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
+  gap: 20px;
+  align-items: start;
+}
+
+.sg-card {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  padding: 12px 12px 16px;
+}
+
+.sg-images {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.sg-n2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.sg-n3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sg-images figure {
+  margin: 0;
+}
+
+.sg-images img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
+
+.sg-images figcaption {
+  margin-top: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+.sg-note {
+  margin-top: 18px;
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--muted);
+}
